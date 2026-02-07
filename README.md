@@ -77,16 +77,15 @@
 ## 서비스 소개 Introduction 
 "사진 한 장으로 일기를 자동 생성하고 AI가 3줄로 요약해 주는, 동행자와 함께 기록할 수 있는 지능형 여행 어시스턴트"
 
-## 핵삼 가눙 Function 
-* ** 1. 일기 생성 
+## 핵심 기능 Function 
+### #1. 일기 생성
 <img width="1043" height="571" alt="Image" src="https://github.com/user-attachments/assets/ff08bac5-2de4-44a6-85ea-c13c9aeeb7ea" />
 
-* ** 2. 일기 상세 페이지
+### #1. 일기 상세 페이지
 <img width="1054" height="569" alt="Image" src="https://github.com/user-attachments/assets/56e0761c-174c-4436-85c9-c7381ca58d87" />  
 
 ## 개발 DEVELOPMENT
 
----
 
 ### 시스템 아키텍처 System Architecture
 <div align="center">
