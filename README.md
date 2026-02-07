@@ -66,7 +66,9 @@
 ## 서비스 소개 Introduction 
 "사진 한 장으로 일기를 자동 생성하고 AI가 3줄로 요약해 주는, 동행자와 함께 기록할 수 있는 지능형 여행 어시스턴트"
 
-## 🛠️ 개발 (DEVELOPMENT)
+## 개발 (DEVELOPMENT)
+## 시스템 아키텍쳐 System Architecture
+<img width="878" height="591" alt="Image" src="https://github.com/user-attachments/assets/3f2b3e57-859e-483d-b562-ad7187023ba1" />
 
 ### 프론트엔드 (FRONTEND)
 > **React Native, Expo, Zustand, TypeScript**
