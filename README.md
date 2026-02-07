@@ -66,24 +66,46 @@
 ## 서비스 소개 Introduction 
 "사진 한 장으로 일기를 자동 생성하고 AI가 3줄로 요약해 주는, 동행자와 함께 기록할 수 있는 지능형 여행 어시스턴트"
 
-## 개발 (DEVELOPMENT)
-## 시스템 아키텍쳐 System Architecture
+## 개발 DEVELOPMENT
+
+---
+
+### 시스템 아키텍처 System Architecture
+<div align="center">
 <img width="878" height="591" alt="Image" src="https://github.com/user-attachments/assets/3f2b3e57-859e-483d-b562-ad7187023ba1" />
+</div>
 
-### 프론트엔드 (FRONTEND)
-> **React Native, Expo, Zustand, TypeScript**
+사용자 모바일 앱, AWS 인프라, 메인 백엔드 및 AI 서버 간의 유기적인 통신을 통한 안정적인 서비스 구조 설계
 
-* **Cross-Platform |** React Native & Expo 기반의 모바일 최적화 환경 구축
-* **State Management |** Zustand를 활용한 가볍고 직관적인 전역 상태 관리
-* **Type Safety |** TypeScript와 Swagger 연동을 통한 데이터 정합성 확보
-* **Network Strategy |** Axios 인터셉터 기반의 안정적인 비동기 통신 설계
+---
 
-### 백엔드 (BACKEND)
-* **Main Engine |** Spring Boot 기반의 견고한 비즈니스 로직 처리
-* **Data Storage |** Redis와 Supabase를 활용한 고성능 데이터 관리 체계
-* **Observability |** Docker 컨테이너 기반 운영 및 Grafana Loki 로그 모니터링
+### 프론트엔드 FRONTEND
+| React Native, Expo, Zustand, TypeScript, Axios, React Navigation
+
+#### **React Native & Expo**
+* **크로스 플랫폼 개발 |** 단일 코드베이스 기반의 iOS 및 Android 통합 사용자 경험 환경 구축
+* **기능 통합 최적화 |** Expo SDK를 활용한 카메라 및 위치 정보 등 모바일 하드웨어 기능의 신속한 연동
+
+#### **Zustand**
+* **전역 상태 관리 |** Flux 패턴 기반의 경량 상태 관리 라이브러리 도입을 통한 데이터 흐름 단순화
+* **코드 유지보수성 향상 |** 프롭 드릴링 제거 및 컴포넌트 간 데이터 공유 로직 최적화
+
+---
+
+### 백엔드 BACKEND
+| Spring Boot, Nginx, Redis, Supabase (PostgreSQL), Docker, Grafana Loki
+
+#### **Spring**
+* **RESTful API 구축 |** Java 17 기반 Spring Boot를 활용한 핵심 비즈니스 로직 개발
+* **데이터 상호작용 최적화 |** Spring Data JPA 및 Querydsl 도입을 통한 효율적인 DB 쿼리 제어
+* **협업 효율성 증대 |** Swagger를 활용한 명세 관리 및 프론트엔드 간 정밀한 데이터 통신 구현
+* **DB 형상 관리 |** Flyway 적용을 통한 데이터베이스 스키마 변경 이력의 체계적 관리
+
+---
 
 ### AI
-* **Model Serving |** FastAPI를 활용한 실시간 이미지 분석 및 일기 생성 API 구축
-* **Intelligence |** PyTorch & Hugging Face 기반의 딥러닝 모델 활용
-* **Connectivity |** ngrok을 활용한 외부 연동 및 유연한 테스트 환경 확보
+| FastAPI, Python, PyTorch, Hugging Face, ngrok
+
+#### **FastAPI & PyTorch**
+* **모델 서빙 최적화 |** FastAPI 기반의 비동기 처리가 지원되는 AI 전용 API 서버 운영
+* **지능형 콘텐츠 생성 |** PyTorch 및 Hugging Face 모델 활용 기반 사진 분석 및 자동 일기 생성 엔진 구축
