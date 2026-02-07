@@ -19,6 +19,7 @@
 * **#Story (공유) |** 동행자와 함께 쓰는 공동 일기로 서로 다른 시선의 추억을 하나로 완성
 
 ## 문제 정의 
+<img width="990" height="424" alt="Image" src="https://github.com/user-attachments/assets/16a2ccbb-0cf2-4fe2-a74e-8a0e19e175d5" />
 
 ### #1. 기록의 번거로움과 심리적 부담
 `작성 허들`이 높은 상황에서 여행 일기 작성의 지속성은 빠르게 감소하고 있습니다.
