@@ -75,7 +75,6 @@
 <img width="878" height="591" alt="Image" src="https://github.com/user-attachments/assets/3f2b3e57-859e-483d-b562-ad7187023ba1" />
 </div>
 
-사용자 모바일 앱, AWS 인프라, 메인 백엔드 및 AI 서버 간의 유기적인 통신을 통한 안정적인 서비스 구조 설계
 
 ---
 
